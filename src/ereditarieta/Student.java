@@ -1,3 +1,5 @@
+package ereditarieta;
+
 public class Student extends Person
 {
 	private String section;
@@ -12,8 +14,9 @@ public class Student extends Person
 		this.section = section;
 	}
 
-//	public String toString()
-//	{
-//		return "Ciao sono "+name+" e sono della sezione "+section;
-//	}
+	@Override
+	public String toString()
+	{
+		return "Ciao sono studente "+name;
+	}
 }

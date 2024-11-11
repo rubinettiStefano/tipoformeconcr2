@@ -1,4 +1,4 @@
-import java.util.Observable;
+package ereditarieta;
 
 public class Person
 {
@@ -24,5 +24,9 @@ public class Person
 		this.surname = surname;
 	}
 
-
+	@Override
+	public String toString()
+	{
+		return "Ciao sono persona "+name;
+	}
 }

@@ -1,3 +1,5 @@
+package ereditarieta;
+
 import java.util.ArrayList;
 
 public class Esempio1
@@ -90,4 +92,31 @@ public class Esempio1
 	{
 		System.out.println(p.getName()+" "+p.getSurname());
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
