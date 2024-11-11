@@ -6,7 +6,7 @@ public class FintoMain
 {
 
 	static Scanner sc = new Scanner(System.in);
-	static Calcolatore c = new CalcolatriceV2();
+	static Calcolatore c = CalcolatoreFactory.make();
 
 	public static void main(String[] args)
 	{
