@@ -1,5 +1,6 @@
 package interfacce;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class FintoMain
@@ -10,6 +11,8 @@ public class FintoMain
 
 	public static void main(String[] args)
 	{
+
+		System.out.println(Locale.getDefault().getLanguage());
 		String cmd= "";
 
 		do
